@@ -1,2 +1,0 @@
-
-from genCubeData import genCubeData
