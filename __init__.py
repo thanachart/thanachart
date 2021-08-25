@@ -1,2 +1,2 @@
 
-from test import test
+from thanachart.test import test
