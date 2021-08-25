@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: thanachart
+Version: 0.0.1
+Summary: Personal package for Thanachart
+Home-page: UNKNOWN
+Author: Thanachart Ritbumroong
+Author-email: thanachart.rit@gmail.com
+License: UNKNOWN
+Project-URL: Main, https://github.com/thanachart/thanachart
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
