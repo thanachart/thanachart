@@ -1,2 +1,3 @@
 
-from thanachart.cube import test2
+from cube import genCubeData
+from abc import hello
