@@ -16,7 +16,7 @@ def genCubeData(measures, dimensions, period):
     df["Week"] = df.Date.dt.weekofyear
     df["Month"] = df.Date.dt.month
     df["Year"] = df.Date.dt.year
-  return df
+    return df
 
   df_time = create_date_table(period['StartDate'], period['EndDate'])
 
