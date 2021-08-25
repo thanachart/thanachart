@@ -2,6 +2,10 @@ LICENSE
 README.md
 __init__.py
 setup.py
+cube/cube.py
+cube/test.py
+dist/thanachart-0.0.1-py3-none-any.whl
+dist/thanachart-0.0.1.tar.gz
 test/test.py
 thanachart.egg-info/PKG-INFO
 thanachart.egg-info/SOURCES.txt
