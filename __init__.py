@@ -1,3 +1,3 @@
 
 from thanachart.test import test
-from thanachart.cube import genCubeData
+from thanachart.cube import cube

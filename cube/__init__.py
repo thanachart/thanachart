@@ -1,2 +1,2 @@
 
-from functions import genCubeData
+from genCubeData import genCubeData
