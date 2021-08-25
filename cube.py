@@ -8,14 +8,14 @@ def genCubeData(measures, dimensions, period):
 
   ## create time dimension
   def create_date_table(start, end):
-  dayofweek={0: "Monday", 1: "Tuesday", 2: "Wednesday", 3: "Thursday", 4: "Friday", 5: "Saturday", 6: "Sunday"}
-  df = pd.DataFrame({"Date": pd.date_range(start, end)})
-  df["Day"] = df.Date.dt.day
-  df["Day of Week"] = df.Date.dt.dayofweek
-  df["Day of Week"] = df["Day of Week"].map(dayofweek)
-  df["Week"] = df.Date.dt.weekofyear
-  df["Month"] = df.Date.dt.month
-  df["Year"] = df.Date.dt.year
+    dayofweek={0: "Monday", 1: "Tuesday", 2: "Wednesday", 3: "Thursday", 4: "Friday", 5: "Saturday", 6: "Sunday"}
+    df = pd.DataFrame({"Date": pd.date_range(start, end)})
+    df["Day"] = df.Date.dt.day
+    df["Day of Week"] = df.Date.dt.dayofweek
+    df["Day of Week"] = df["Day of Week"].map(dayofweek)
+    df["Week"] = df.Date.dt.weekofyear
+    df["Month"] = df.Date.dt.month
+    df["Year"] = df.Date.dt.year
   return df
 
   df_time = create_date_table(period['StartDate'], period['EndDate'])
