@@ -1,2 +1,2 @@
 
-from .cube import test2
+from thanachart.cube import test2
