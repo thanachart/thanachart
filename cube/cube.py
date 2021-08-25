@@ -1,6 +1,11 @@
 
 def genCubeData(measures, dimensions, period):
 
+  import numpy as np
+  import itertools
+  import pandas as pd
+  import random
+
   ## create time dimension
   def create_date_table(start, end):
   dayofweek={0: "Monday", 1: "Tuesday", 2: "Wednesday", 3: "Thursday", 4: "Friday", 5: "Saturday", 6: "Sunday"}
