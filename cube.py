@@ -1,4 +1,3 @@
-
 def genCubeData(measures, dimensions, period):
 
   import numpy as np
